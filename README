@@ -1,0 +1,29 @@
+at first,I set up a class called Record which include member function and member
+
+
+data.there is a setStart function which can get the three variables(a,b,c) that 
+
+
+infile from file.in and assign them to member data K,RA,RB.Then,outfile the
+
+
+initial value b,c in file.out.next,I create a while loop to infile s continually.
+
+
+inside the while loop,there is a if else loop to judge s in order to set up 
+
+
+s1(actual score of player A) and s2(actual score of player B).then,I call the getStart 
+
+
+function in class Record with argument s1 and s2,and it will return the updated
+
+
+value of RA,RB and outfile the value of RA RB to file.out.then it will assign the updated value of RA,RB to b,c,and call the setStart function to initialize  
+
+
+again.the above mentioned is the operation of my while loop .as long as the program infile s from
+
+file.in continually,it will outfile the updated result of RA RB to file.out,and
+
+it's the goal that this program wants to represent.
