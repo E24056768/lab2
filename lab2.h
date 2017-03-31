@@ -1,5 +1,5 @@
 
-#include <cstdlib> 
+
 #include<cmath>
 using namespace std;
 class Record{
