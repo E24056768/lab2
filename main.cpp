@@ -20,7 +20,7 @@ using namespace std;
     double s1=0;
     double s2=0;
     
-    ifstream inFile("infile", ios::in); 
+    ifstream inFile("file.in", ios::in); 
    
     if(!inFile) { 
 
@@ -31,7 +31,7 @@ using namespace std;
 
     }
 
-    ofstream outFile("outfile", ios::out);
+    ofstream outFile("file.out", ios::out);
 
     if(!outFile) {
 
